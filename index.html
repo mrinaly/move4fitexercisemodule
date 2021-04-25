@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Site Layout</title>
+
+    <!-- Google Fonts -->
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap"
+     rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <link rel="stylesheet" href="styles.css">
+
+    <!-- Font Awesome icons -->
+    <script src="https://kit.fontawesome.com/9bd6de2cb5.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap jquery -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a href="#" class="navbar-brand">move4fit</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu"
+      aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="#" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Evolution</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Brains and Brawn</a>
+          </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <!-- Workout Selection Section -->
+
+    <section class="colored-section" id="myDIV1">
+    <!-- container and container fluid are class name defined by bootstrap, container fluid covers the whoel screen, while container name  -->
+    <div class="container-fluid my-container">
+      <div class="row my-row no-gutters">
+        <div class="col-md-3 col-6 my-col">
+          <h2 class="main-heading">Exercise is Optional,<br>Movement is Primal</h2>
+        </div>
+        <div class="col-md-3 col-6 my-col">
+          <!-- col-6 above makews the col1 and col2 stay stacked with wach other even on smaller screens while col3 will get down when screens are smaller  -->
+          <img class="title-image" src="images/android7.png" alt="android7-mockup">
+        </div>
+        <div class="col-md-6 my-col">
+          <h2 class="section-heading">Choose your Fit !</h2>
+          <form class="" action="" style="width : 130px ; margin : auto">
+            <div class="form-group">
+              <label for="userAge">Age</label>
+              <!-- <input type="number" name="userAge" id="userAge" class="form-control"> -->
+              <select class="form-control" id="userAge">
+                <option></option>
+                <option>1</option>
+                  <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="userLevel">Level</label>
+              <!-- <input type="text" name="userLevel" id="userLevel" class="form-control"> -->
+              <select class="form-control" id="userLevel">
+                <option></option>
+                <option>Beginner</option>
+                <option>Basic</option>
+                <option>Intermediate</option>
+                <option>Advanced</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="userIntensity">Intensity</label>
+              <!-- <input type="number" name="userIntensity" id="userIntensity" class="form-control"> -->
+              <select class="form-control" id="userIntensity">
+                <option></option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+              </select>
+            </div>
+          </form></br>
+          <!-- <a href="#" class="continue">Submit &raquo;</a> -->
+          <button type="button" class="button" id="button1">Submit</button>
+          <!-- <a href="#" class="next round">Submit &#8250;</a> -->
+        </div>
+      </div>
+    </div>
+    </section>
+
+
+    <!-- Workout Chart Section -->
+
+    <section class="colored-section" id="myDIV2">
+    <!-- container and container fluid are class name defined by bootstrap, container fluid covers the whoel screen, while container name  -->
+    <div class="container-fluid my-container">
+      <!-- <div class="row my-row no-gutters">
+        <div class="col-12 my-col">
+        <h2 class="feature-title1">Workout Chart</h2>
+        </div>
+        </div> -->
+      <div class="row my-row no-gutters">
+        <div class="col my-col">
+          <i class="icon fas fa-check-circle fa-2x"></i>
+          <h2 class="feature-title1">Warm-Up</h2>
+          <i class="far fa-clock fa-1x" id="warm-up"></i>
+            <!-- <p id="warm-up">___</p> -->
+        </div>
+      </div>
+      <div class="row my-row no-gutters">
+        <div class="col my-col">
+          <i class="icon fas fa-check-circle fa-2x"></i>
+          <h2 class="feature-title1">Exercise's</h2>
+        </div>
+      </div>
+      <div class="row my-row no-gutters">
+        <div class="col-xl-4 col-sm-6 my-col">
+          <h3 class="feature-title">Exercise 1</h3>
+          <i class="far fa-play-circle fa-1x" id="exe1-name"></i></br>
+          <i class="fas fa-redo-alt fa-1x" id="exe1-reps"></i><br />
+          <i class="far fa-clock fa-1x" id="exe1-time"></i>
+        </div>
+        <div class="col-xl-4 col-sm-6 my-col">
+        <h3 class="feature-title">Exercise 2</h3>
+        <i class="far fa-play-circle fa-1x" id="exe2-name"></i></br>
+        <i class="fas fa-redo-alt fa-1x" id="exe2-reps"></i><br />
+        <i class="far fa-clock fa-1x" id="exe2-time"></i>
+          </div>
+        <div class="col-xl-4 col-sm-6 my-col">
+        <h3 class="feature-title">Exercise 3</h3>
+        <i class="far fa-play-circle fa-1x" id="exe3-name"></i></br>
+        <i class="fas fa-redo-alt fa-1x" id="exe3-reps"></i><br />
+        <i class="far fa-clock fa-1x" id="exe3-time"></i>
+          </div>
+        </div>
+        <div class="row my-row no-gutters">
+        <div class="col-xl-4 my-col">
+        <h3 class="feature-title">Exercise 4</h3>
+        <i class="far fa-play-circle fa-1x" id="exe4-name"></i></br>
+        <i class="fas fa-redo-alt fa-1x" id="exe4-reps"></i><br />
+        <i class="far fa-clock fa-1x" id="exe4-time"></i>
+          </div>
+        <div class="col-xl-4 my-col">
+        <h3 class="feature-title">Exercise 5</h3>
+        <i class="far fa-play-circle fa-1x" id="exe5-name"></i></br>
+        <i class="fas fa-redo-alt fa-1x" id="exe5-reps"></i><br />
+        <i class="far fa-clock fa-1x" id="exe5-time"></i>
+            </div>
+        <div class="col-xl-4 my-col">
+        <h3 class="feature-title">Exercise 6</h3>
+        <i class="far fa-play-circle fa-1x" id="exe6-name"></i></br>
+        <i class="fas fa-redo-alt fa-1x" id="exe6-reps"></i><br />
+        <i class="far fa-clock fa-1x" id="exe6-time"></i>
+          </div>
+        </div>
+        <div class="row my-row no-gutters">
+        <div class="col-xl-4 my-col">
+          <h3 class="feature-title">Exercise 7</h3>
+          <i class="far fa-play-circle fa-1x" id="exe7-name"></i></br>
+          <i class="fas fa-redo-alt fa-1x" id="exe7-reps"></i><br />
+          <i class="far fa-clock fa-1x" id="exe7-time"></i>
+        </div>
+      </div>
+      <div class="row my-row no-gutters">
+        <div class="col my-col">
+          <i class="icon fas fa-check-circle fa-2x"></i>
+            <h2 class="feature-title1">Cool-Down</h2>
+            <i class="far fa-clock fa-1x" id="cool-down"></i>
+
+        </div>
+      </div>
+
+      <div class="row my-row no-gutters">
+        <div class="col-6 my-col">
+          <button type="button" class="button1" id="button2">Reset</button>
+          <p >Change the 'Level' or 'Intensity' !</p>
+        </div>
+        <div class="col-6 my-col">
+          <button type="button" class="button" id="button3">Start</button>
+          <p >Start this workout !</p>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Doing the workout Section -->
+
+    <section class="colored-section" id="myDIV3">
+    <!-- container and container fluid are class name defined by bootstrap, container fluid covers the whoel screen, while container name  -->
+    <div class="container-fluid my-container">
+      <div class="row my-row no-gutters">
+      <div class="col-6 my-col">
+          <!-- <i class="icon fas fa-check-circle fa-2x"></i> -->
+          <h3 class="exe-title" id="exercise-title">Warm Up</h3>
+            <span>Station </span><span id="curr-exe-num">1</span> of <span id="total-exe-num">9</span>
+        </div>
+        <div class="col-6 my-col">
+          <h3 class="feature-title">Reps<br></h3>
+          <p id="exe-reps">13</p>
+        </div>
+      </div>
+        <div class="row my-row no-gutters">
+        <div class="col-6 my-col">
+          <h3 class="feature-title">Timer</h3>
+          <p id="countdown">0:00</p>
+          <!-- <a href="#" class="continue next" onclick="updateCountdown()">Start &raquo;</a> -->
+        </div>
+        <div class="col-6 my-col">
+              <button type="button" class="button" id="start-workout">Start</button>
+        </div>
+      </div>
+
+        <div class="row my-row no-gutters">
+        <div class="col-12 my-col" id="exe-gif">
+          <img src="" name="exeImg">
+          </div>
+      </div>
+      <div class="row my-row no-gutters">
+        <div class="col-6 my-col">
+          <button type="button" class="button" id="previous-workout">Previous</button>
+        </div>
+        <div class="col-6 my-col">
+          <!-- <button type="button" class="button" id="next-workout">Next</button> -->
+          <audio id="sound1" src="images/1.mp3" preload="auto"></audio>
+        </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Footer -->
+
+  <footer class="colored-section" id="footer">
+    <div class="container-fluid my-container">
+      <div class="row my-row no-gutters">
+        <div class="col-md-12 my-col">
+         <a class="footer-link" href="https://www.Facebook.com/"><i class="social-icon fab fa-facebook fa-2x"></i></a>
+         <a class="footer-link" href="https://Youtube.com/"><i class="social-icon fab fa-youtube fa-2x"></i></a>
+         <a class="footer-link" href="http://www.Twitter.com/"><i class="social-icon fab fa-twitter fa-2x"></i></a>
+         <a class="footer-link" href="http://www.Instagram.com/"><i class="social-icon fab fa-instagram fa-2x"></i></a>
+        <p>© Copyright 2021 @ Aquastark &trade; Technologies</p>
+       </div>
+      </div>
+    </div>
+   </footer>
+
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="exercises.js"></script>
+
+  </body>
+</html>

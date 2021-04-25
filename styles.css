@@ -1,0 +1,127 @@
+/* body {
+  margin: 30px;
+} */
+
+/* Navigation bar */
+
+body{
+  background-color: #0278ae;
+}
+
+.navbar {
+  padding-bottom: .39rem;
+}
+
+.navbar-brand {
+  font-family: 'Quattrocento', serif;
+  font-size: 1.69rem;
+  font-weight: normal;
+}
+.nav-item {
+  padding: 0 26px;
+}
+.nav-link {
+  font-size: 1.04rem;
+  }
+
+/*  */
+
+.container-fluid {
+  /* padding: 1.3% 13% 2.6% 13%; */
+  padding: 1.3% 6.5% 2.6% 6.5%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #0278ae;
+  color:white;
+}
+
+.white-section {
+  background-color: white;
+  /* padding: 1.3% 6.5% 2.6% 6.5%; */
+  padding: 1.3% 0;
+}
+
+.feature-title1{
+  color:#FF7F50;
+}
+
+.my-container {
+  /* border: 6.5px solid orange; */
+  border-radius: 5.2px;
+  padding: 1.3% 0;
+  }
+
+.my-row {
+  /* border: 3px solid blue; */
+  align-items:center;
+  /* height: 390px; */
+  }
+
+.my-col {
+  /* border: 3px dotted red; */
+  text-align: center;
+  /* height: 390px; */
+  }
+
+.section-heading {
+  font-size: 1.65rem;
+  line-height: 1.5;
+  color: #FF7F50;
+  }
+
+  #myDIV2 {
+    /* visibility: hidden; */
+    display: none;
+  }
+
+  #myDIV3 {
+    /* visibility: hidden; */
+    display: none;
+  }
+
+
+  .continue {
+  background-color: #FF7F50;
+  color: white;
+  font-size: 13px;
+}
+
+.button{
+  background-color: #FF7F50;
+  color: white;
+}
+.button1{
+  background-color: white;
+  color: black;
+}
+/* .round {
+  border-radius: 100%;
+} */
+
+/* #exe1-name,
+#exe1-reps,
+#exe1-time{
+  text-align: left;
+} */
+
+.title-image {
+  width: 52%;
+  transform: rotate(13deg);
+  /* margin: 0 0 0 26%; */
+  /* position: absolute;
+  left: 39%; */
+    }
+
+
+#footer {
+  padding: 0.39% 0 0 0;
+  font-size: .78rem;
+}
+
+    .footer-link{
+      color: white;
+      padding: 0 26px 0 0 ;
+    }
